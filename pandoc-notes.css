@@ -16,20 +16,20 @@
   }
 
   p,
+  table,
   ul,
   ol {
     font-size: 1.25rem;
   }
 
-  p {
-    margin: 1rem 0;
-  }
-
+  p,
+  table,
   body > ul,
   body > ol {
     margin: 1rem 0;
   }
 
+  th,
   strong,
   li::marker {
     color: #586e75;
@@ -69,9 +69,25 @@
   h1.title {
     margin-top: 1rem;
   }
-  
+
   nav > ul {
     border-bottom: 4px double #93a1a1;
     padding-bottom: 1.4rem;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+
+  th,
+  td {
+    border: 1px solid #93a1a1;
+    padding: 0.4rem;
+  }
+
+  thead {
+    border: 4px double #93a1a1;
   }
 </style>
